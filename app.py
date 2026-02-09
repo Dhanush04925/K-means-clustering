@@ -243,7 +243,7 @@ if model is not None and df is not None:
             st.markdown("### 💡 Cluster Insights")
             
             # Calculate cluster statistics from original data
-            clustered_data = pd.read_csv("clustered data.csv")
+            clustered_data = pd.read_csv("clustered_mall_customers.csv")
             cluster_stats = clustered_data[clustered_data['Cluster'] == cluster]
             
             st.markdown(f"""
